@@ -15,7 +15,7 @@ public class PersianStopFilterFactory extends AbstractTokenFilterFactory {
     public static final CharArraySet PERSIAN_STOP_WORDS_SET;
 
     public PersianStopFilterFactory(IndexSettings indexSettings, Environment environment, String name, Settings settings) {
-        super(indexSettings, name, settings);
+        super(name, settings);
     }
 
     @Override

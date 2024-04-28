@@ -9,7 +9,7 @@ import org.elasticsearch.index.analysis.AbstractTokenFilterFactory;
 public class PersianStemFilterFactory extends AbstractTokenFilterFactory {
 
     public PersianStemFilterFactory(IndexSettings indexSettings, Environment environment, String name, Settings settings) {
-        super(indexSettings, name, settings);
+        super(name, settings);
     }
 
     @Override

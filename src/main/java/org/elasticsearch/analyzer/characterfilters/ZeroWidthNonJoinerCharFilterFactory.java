@@ -11,7 +11,7 @@ public class ZeroWidthNonJoinerCharFilterFactory extends AbstractCharFilterFacto
 
 
     public ZeroWidthNonJoinerCharFilterFactory(IndexSettings indexSettings, Environment environment, String name, Settings settings) {
-        super(indexSettings, name);
+        super(name);
     }
 
     @Override
